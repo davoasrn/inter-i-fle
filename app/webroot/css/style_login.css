@@ -1,0 +1,105 @@
+body{font:normal 12px Arial, Helvetica, sans-serif; color:#000; margin:0; padding:0; text-decoration:none;}
+ul, li, p, span{ margin:0; padding:0; outline:none; list-style-type:none}
+h1,h2,h3,h4,h5,h6,img,div,form,class {margin:0; padding:0; border:none; line-height:normal; font-weight:normal}
+table,tr,td{margin:0 auto; padding:0;}
+.clearer {clear:both; font-size:0px; display:none; margin:0px; padding:0px; height:0px; overflow:hidden; line-height:0px; }
+a{color:#7b7b7b; text-decoration:none} a:hover{text-decoration:none}
+img, a{border:none; outline:none}
+
+/*common css classes start*/
+.floatLeft{float:left; }
+.floatRight{float:right;}
+.verticalMiddle{vertical-align:middle}
+.textAlignC{text-align:center;}
+.textAlignR{text-align:right;}
+.textAlignL{text-align:left;}
+
+body{
+	background:url(../img/background.jpg);
+}
+.header{
+	background:url(../img/header_bg.png) repeat-x;
+	height:80px;
+	width:100%;
+} 
+.Container{
+         background: none repeat scroll 0 0 #FFFFFF;
+    margin: 10px auto;
+    overflow: hidden;
+    padding: 0 30px;
+    width: 1220px;
+}
+.right_panel{float: right;
+    height: auto;
+        width: 272px;}
+.loginbox{ background:#c8e0ed; height:auto;   margin-bottom: 15px;
+}
+.input_boxes{ width:238px; height:34px; border:1px solid #6ec0ec; border-radius:4px; background:#ebf4f9;  margin-bottom: 5px;
+    margin-left: 16px;
+    margin-top: 5px;}
+.loginbox span{ color: #333333;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 8px 0;
+    text-align: center;}
+
+.left_panel{ float: left;
+    height: auto;
+    width:925px;}
+.top_text{   border-bottom: 1px dashed #999999;
+    color: #999999;
+    font-size: 15px;
+    line-height: 23px;
+    margin-top: 30px;
+    padding-bottom: 22px;}
+.top_text span{}
+.mid_text p{
+	  color: #848484;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 16px 0;
+}
+.mid_text p span{ color: #333333;
+}
+.login_btn{ background:url(../img/login_btn.jpg);
+width:82px; height:34px; border:none;
+}
+.input_boxes input{   background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    float: right;
+    height: 22px;
+    margin-right: 7px;
+    margin-top: 5px;
+    width: 193px;
+}
+.input_boxes img{  margin-left: 10px;
+    margin-top: 9px;}
+.googleadd{ height: auto;
+        width: 272px; background:#f2f2f2; border:1px solid #cfcfcf; min-height:500px;  margin-bottom: 15px;
+}
+.footer{
+  height: 70px;
+    line-height: 53px;
+    text-align: center;
+}
+.footer a{
+	 color: #848484;
+    margin: 0 10px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+.heading{ text-align:center;
+font-size:14px; color:#848484;   margin-top: 10px;
+}
+.top_container{
+    margin: 0 auto;
+    padding: 0;
+    width: 1280px;
+}
+.logo{  float: left;
+    margin-top: 7px;
+}
+.errMsgLogin{background-color:#BA0D2A;padding:5px;font-size:14px; color: #FFFFFF;font-weight:bold;}
+.submit{
+text-align: center;
+}

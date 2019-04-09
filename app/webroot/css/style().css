@@ -1,0 +1,288 @@
+body{font:normal 12px Arial, Helvetica, sans-serif; color:#000; margin:0; padding:0; text-decoration:none;}
+ul, li, p, span{ margin:0; padding:0; outline:none; list-style-type:none}
+h1,h2,h3,h4,h5,h6,img,div,form,class {margin:0; padding:0; border:none; line-height:normal; font-weight:normal}
+table,tr,td{margin:0 auto; padding:0;}
+.clearer {clear:both; font-size:0px; display:none; margin:0px; padding:0px; height:0px; overflow:hidden; line-height:0px; }
+a{color:#7b7b7b; text-decoration:none} a:hover{text-decoration:none}
+img, a{border:none; outline:none}
+input{border:none 0px}
+
+/*common css classes start*/
+.floatLeft{float:left; }
+.floatRight{float:right;}
+.verticalMiddle{vertical-align:middle}
+.textAlignC{text-align:center;}
+.textAlignR{text-align:right;}
+.textAlignL{text-align:left;}
+ @font-face {
+ font-family: "Segoe_UI";
+ src: url('../fonts/Segoe_UI.eot');
+ src: local('Segoe_UI'), url('../fonts/Segoe_UI.ttf') format('truetype');
+}
+body{
+	background:url(../img/background.jpg);
+	font-family: "Segoe_UI", Arial, Helvetica, sans-serif;
+}
+.header{
+	background:url(../img/header_bg.png) repeat-x;
+	height:80px;
+	width:100%;
+} 
+.Container{
+          background: none repeat scroll 0 0 #FFFFFF;
+          margin: 0px auto;
+          overflow: hidden;
+    	 height: auto;
+	  min-height: 500px;
+   	padding: 0 30px;
+    width: 92%;
+	-webkit-box-shadow: 0px 1px 3px #666; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+      box-shadow: 0px 1px 3px #666; /* Opera 10.5, IE9+, Firefox 4+, Chrome 6+, iOS 5 */
+}
+.Container_login{
+          background: none repeat scroll 0 0 #FFFFFF;
+    margin: 10px auto 0;
+    overflow: hidden;
+    height: auto;
+	min-height: 500px;
+   	padding: 0 30px;
+    width: 92%;
+	-webkit-box-shadow: 0px 1px 3px #666; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+          box-shadow: 0px 1px 3px #666; /* Opera 10.5, IE9+, Firefox 4+, Chrome 6+, iOS 5 */
+}
+.right_panel{float: right;
+    height: auto;
+         width: 25%;}
+.loginbox{ background:#c8e0ed; height:auto;   margin-bottom: 15px;
+-webkit-box-shadow: 0px 2px 0px 0 #73BDE5; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+          box-shadow: 0px 2px 0px 0 #73BDE5; /* Opera 10.5, IE9+, Firefox 4+, Chrome 6+, iOS 5 */
+}
+.input_boxes{  width: 88%; height:34px; border:1px solid #6ec0ec; border-radius:4px;-webkit-border-radius:4px!important; background:#ebf4f9;  margin-bottom: 5px;
+    margin-left: 6%;
+    margin-top: 5px;}
+.loginbox span{ color: #333333;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 8px 0;
+    text-align: center;}
+
+.left_panel{ float: left;
+    height: auto;
+    width: 73%;}
+.top_text{   border-bottom: 1px dashed #999999;
+    color: #999999;
+    font-size: 15px;
+    line-height: 23px;
+    margin-top: 30px;
+    padding-bottom: 22px;}
+.top_text span{ color:#363636;}
+.mid_text p{
+	  color: #848484;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 16px 0;
+}
+.mid_text p span{ color: #333333;
+}
+.loginpage_li_gray{
+	color:#848484;
+}
+.login_btn{   border: medium none;
+       margin: 0 auto 4px;
+    padding: 5px !important;
+    width: 82px;
+}
+.input_boxes input{  background: none;
+    border: medium none;
+    float: left;
+    height: 22px;
+    margin-left: 5px;
+    margin-right: 7px;
+    margin-top: 5px;
+    width: 75%;
+}
+.input_boxes img{     margin-left: 7px;  float: left;
+    margin-top: 4px;}
+.googleadd{ height: auto;
+        width: auto; background:#f2f2f2; border:1px solid #cfcfcf; min-height:500px;  margin-bottom: 15px;
+}
+.footer{
+   height: 53px;
+    line-height: 53px;
+	color:#848484;
+    text-align: center;
+}
+.footer a{
+	 color: #848484;
+    margin: 0 10px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+.heading{ text-align:center;
+font-size:14px; color:#848484;   margin-top: 10px;
+}
+.top_container{
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo{  float: left;
+    margin-top: 7px;
+	display:block;
+}
+/*    */
+.addr{   color: #FFFFFF;
+    float: right;
+    font-size: 13px;
+    line-height: 21px;
+    margin-top: 7px;
+    text-align: left;
+    width: 366px;}
+.menu{
+	background:url(../img/menu_bg.jpg) repeat-x;
+	width:100%; height:44px;     margin-top: 10px; float: left;
+	 margin-bottom: 10px;
+}
+.nav{     float: left;
+    width: 50%;}
+.nav li{ font-size:15px; color:#333; display: inline;}
+.nav li a{  color: #333333;    line-height: 44px;
+    margin: 0 15px;  padding: 6px 10px;   font-weight: 600;
+}
+.nav li a:hover{    background: none repeat scroll 0 0 #1581B8;
+    border-radius: 4px 4px 4px 4px;-webkit-border-radius:4px!important;
+    color: #FFFFFF;
+    padding: 6px 10px;
+}
+.nav li a.active{    background: none repeat scroll 0 0 #1581B8;
+    border-radius: 4px 4px 4px 4px;-webkit-border-radius:4px!important;
+    color: #FFFFFF;
+    padding: 6px 10px;
+}
+.right_menu_options{ float: right;   background: url("../img/sepreator.png") no-repeat scroll left 1px transparent;
+ 
+}
+.right_menu_options ul { }
+.right_menu_options ul li {  background: url("../img/sepreator.png") no-repeat scroll right top transparent;
+    float: left;
+    margin: 1px 12px 0 0;}
+
+.right_menu_options ul img { float:left; }
+.user{
+    font-weight: bold;
+    line-height: 20px;
+      width: 244px; margin-left: 8px !important;
+}
+.email_li{ 
+    line-height: 41px; padding: 0 16px 0 0;
+}
+.right_arrow{padding: 0 10px 0 0; margin:0 !important;}
+.menu_container{width:95%; margin-left:3%;}
+
+/*  -----   Net_Amm (Amministratori  Edit )   ------*/
+
+.form_content{}
+.form_heading{ font-size:19px; color:#333333; border-bottom:1px dashed #999; float:left; width:100%;   margin-bottom: 15px; }
+.main_heading{ float: left;padding: 18px 0; }
+.close_btn{  float: right; padding: 22px 0;}
+.submit_btn{ }
+.cancel_btn{  margin-left: 20px;}
+.btn{ cursor: pointer;background:#85cffa!important; border-radius:4px!important;  -webkit-border-radius:4px!important; :padding: 5px 15px!important; text-shadow: 0 1px 0 #FFFFFF!important; color:#333!important; font-size:16px!important; font-weight:bold!important; -webkit-box-shadow: 0 1px 0 0 #333333!important; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+          box-shadow: 0 1px 0 0 #333333; /* Opera 10.5, IE9+, Firefox 4+, Chrome 6+, iOS 5 */}
+.form_buttons{   float: left; margin-bottom: 10px; padding: 10px 0; width: 100%;}
+.form_labels_fields{float: left;    width: 100%; padding-bottom: 25px;}
+.label_field{  float: left; margin: 10px 0; width: 100%;}
+.label_field .label{ font-size:16px; width:20%; float:left; text-align:right; color:#333;  margin-right: 2%;  line-height: 36px;}
+.label_field .field{  border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius:4px!important;
+    float: left;
+    height: 37px;
+    padding: 0;
+    width: 73%;}
+.field input{height: 54%;
+margin-left: 1%;
+width: 96%;
+border: none;
+line-height: 31px;
+}
+.field textarea{ border: medium none;
+height: 79%;
+margin-left: 0.6%;
+margin-top: 0.8%;
+width: 97%;
+overflow-y: scroll;
+}
+.date_of_birth{ margin-right: 1%;    width: 68% !important;}
+.calender{}
+.form_textarea{    height: 100px !important;}
+.field select{ height: 100%;    margin-left: 1%;  padding: 8px 0;  border: medium none; width: 98%; background:url(../img/select_list_img.png) no-repeat right center;}
+
+/*  -----  int_documenti   ------*/
+.search_sort{}
+.search{ float:left; width:50%;}
+.search .label_field{  float: left; margin: 10px 0; width: 100%;}
+.search .label_field .label{ font-size:16px; width:auto; float:left; text-align:left; color:#333;  margin-right: 2%;  line-height: 36px;}
+
+.search .label_field .field{ width:77%; float:left; height:35px; border:1px solid #cccccc; border-radius:4px;-webkit-border-radius:4px!important;}
+
+.search .field input{  height: 84%;   margin-left: 1%; width: 98%; border:none;}
+.sort{ float:right; width:50%;}
+.sort .label_field{  float: left; margin: 10px 0; width: 100%;}
+.sort .label_field .label{ font-size:16px; width:auto; float:right; text-align:left; color:#333;  margin-right: 2%;  line-height: 36px;}
+.sort .label_field .field{ width:77%; float:right; height:35px; border:1px solid #cccccc; border-radius:4px;-webkit-border-radius:4px!important;}
+.sort .field select{ height: 100%;   margin-left: 1%; padding-top: 7px;  border: medium none; width: 98%; background:url(../img/select_list_img.png) no-repeat right center;}
+.table_data{ width: 100%; }
+.table_data td { border-bottom: 1px solid #cccccc; border-right:1px solid #cccccc; border-collapse: collapse;   color: #333333; font-size: 14px;  padding: 0 8px; }
+.table_data th {   background: none repeat scroll 0 0 #1581B8; color: white; font-size: 16px; padding: 0 8px; text-align: left; text-transform: uppercase;font-weight: normal; }
+.table_data tr { height: 40px; }
+.no-border_right{border-right:none !important;}
+.checkbox_white{}
+/*   checkbox */
+.checkbox {	background:url(../img/checkbox.png) no-repeat; clear: left;    cursor: default;    float: left;    height: 23px;    margin: 4px 0 0;    padding: 0 0 0 21px;    text-align: left;}
+.checkbox input,.radio input {	display: none;}
+.checkbox input.show,.radio input.show {display: inline;}
+.selected {	background-position: 0 -21px !important;}
+.contactTextarea{border:1px solid #cccccc; height:106px; width:556px; padding:5px; outline:none }
+
+/* checkbox end- */
+
+.button1{   background: url("../img/btn_bg.png") repeat scroll 0 0 transparent;
+    border: 1px solid #333333;
+    color: #FFFFFF;
+    float: right;
+    font-size: 16px;
+    height: 28px;
+    line-height: 26px;
+    margin-top: 18px;
+    padding: 0 10px;}
+
+.button1 img{  margin-right: 5px;
+    vertical-align: middle;}
+#fancybox-overlay {
+background: none repeat scroll 0 0 black;
+cursor: pointer;
+float: left;
+height: 100%;
+opacity: 0.7;
+position: fixed;
+top: 0;
+width: 100%;
+}
+.table_data th a{
+color: #fff;
+}
+div.message {
+	clear: both;
+	color: #fff;
+	font-size: 140%;
+	font-weight: bold;
+	margin: 0 0 1em 0;
+	background: #e40000;
+	padding: 5px;
+	text-align:center;
+}
+button.ui-datepicker-trigger {
+    position: absolute;
+margin-left: 28px;
+float: right;
+}

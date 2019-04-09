@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+
+@media screen and (min-width: 240px) and (max-width: 321px) {
+
+  .right_panel{		 width:100%; float:left;	 }
+.googleadd{		 min-height:100px;	 }
+.input_boxes input{height:10px; width:80%; margin-top:4px;}
+.loginbox span { font-size:12px;}
+.addr {    background: none repeat scroll 0 0 #e3e3e3;    color: #333;    display: block;    float: left;    font-size: 13px;    line-height: 21px;    margin-top: 5px;    text-align: center;
+	padding:1%;    width: 98%;}
+	
+/*  -----   Net_Amm (Amministratori  Edit )  ------*/
+
+
+}
+ @media screen and (min-width: 322px) and (max-width: 480px) {
+	 .input_boxes img{width:100%;	max-width:12px}
+	.input_boxes{height:20px;	}
+	 .mainlogo{  height:100%; max-height: 30px;	 }
+	  .right_panel{	width:100%;	 float:left; }
+.googleadd{
+		 min-height:150px;
+	 }
+.input_boxes input{height:15px; width:80%; margin-top:5px;}
+.loginbox span { font-size:12px;}
+	 .addr {
+    background: none repeat scroll 0 0 #e3e3e3;
+    color: #333;
+    display: block;
+    float: left;
+    font-size: 13px;
+    line-height: 21px;
+    margin-top: 5px;
+    text-align: center;
+	padding:1%;
+    width: 98%;}
+.menu{
+	  background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    height:auto;
+    margin: 0 3%;
+    width: 94%;
+}
+.nav{width: 100%;}
+.nav li{  color: #333333;
+    display: block;
+    font-size: 13px;
+    text-align: center;
+	padding:0;}
+.nav li a{ color: #333333;
+    float: left;
+    line-height: 40px;
+     width: 100%; padding:0; margin:0;
+}
+.nav li a:hover{    background: none repeat scroll 0 0 #1581B8;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    padding: 0; margin:0;
+}
+
+/*  -----   Net_Amm (Amministratori  Edit )  ------*/
+
+}
+ @media screen and (min-width: 481px) and (max-width: 700px) {
+	 .input_boxes img{width:100%; float:left;
+	max-width:23px}
+	.input_boxes{
+		height:28px;
+		width:94%;
+		margin-left:3%;
+	}
+	.input_boxes input{height:16px; width:80%;}
+	 .mainlogo{  height:100%; max-height: 40px;	 }
+	 .right_panel{ width:100%; float:left; }
+	.googleadd{ min-height:200px; }
+	.loginbox span { font-size:15px}
+		 .addr {
+    background: none repeat scroll 0 0 #e3e3e3;
+    color: #333;
+    display: block;
+    float: left;
+    font-size: 13px;
+    line-height: 21px;
+    margin-top: 5px;
+    text-align: center;
+	padding:1%;
+    width: 98%;}
+	
+	
+.right_menu_options {
+    float: left;
+    margin-top: 6px;
+    width: 100%;
+}
+.menu {
+    background: url("../images/menu_bg.jpg") repeat scroll 0 0 transparent;
+    float: left;
+    height: 88px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/*  -----   Net_Amm (Amministratori  Edit )  ------*/
+
+
+}
+ @media (min-width: 701px) and (max-width: 1200px) {
+	
+		 .addr {
+    background: none repeat scroll 0 0 #e3e3e3;
+    color: #333;
+    display: block;
+    float: left;
+    font-size: 13px;
+    line-height: 21px;
+    margin-top: 5px;
+    text-align: center;
+	padding:1%;
+    width: 98%;}
+	
+	.right_menu_options {
+    float: left;
+    margin-top: 6px;
+    width: 100%;
+}
+.menu {
+    background: url("../images/menu_bg.jpg") repeat scroll 0 0 transparent;
+    float: left;
+    height: 88px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+/*  -----   Net_Amm (Amministratori  Edit )  ------*/
+	 
+
+}
+ @media (min-width: 1201px) and (max-width: 1900px) {
+html {
+	font-size: 100%;
+}
+ .breaktext{
+		 display:block;}
+}
+
+/*  -----   Net_Amm (Amministratori  Edit )  ------*/

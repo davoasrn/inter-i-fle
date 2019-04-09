@@ -1,0 +1,272 @@
+body{font:normal 12px Arial, Helvetica, sans-serif; color:#000; margin:0; padding:0; text-decoration:none;}
+ul, li, p, span{ margin:0; padding:0; outline:none; list-style-type:none}
+h1,h2,h3,h4,h5,h6,img,div,form,class {margin:0; padding:0; border:none; line-height:normal; font-weight:normal}
+table,tr,td{margin:0 auto; padding:0;}
+.clearer {clear:both; font-size:0px; display:none; margin:0px; padding:0px; height:0px; overflow:hidden; line-height:0px; }
+a{color:#7b7b7b; text-decoration:none} a:hover{text-decoration:none}
+img, a{border:none; outline:none}
+
+/*common css classes start*/
+.floatLeft{float:left; }
+.floatRight{float:right;}
+.verticalMiddle{vertical-align:middle}
+.textAlignC{text-align:center;}
+.textAlignR{text-align:right;}
+.textAlignL{text-align:left;}
+
+body{
+	background:url(../img/background.jpg);
+}
+.header{
+	background:url(../img/header_bg.png) repeat-x;
+	height:80px;
+	width:100%;
+} 
+.Container{
+          background: none repeat scroll 0 0 #FFFFFF;
+    margin: 10px auto;
+    overflow: hidden;
+    padding:  20px;
+	 height: auto;
+    width: 88%;
+	-webkit-box-shadow: 0px 2px 3px 0 #999; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+          box-shadow: 0px 2px 3px 0 #999; /* Opera 10.5, IE9+, Firefox 4+, Chrome 6+, iOS 5 */
+     min-height: 700px;
+}
+.right_panel{float: right;
+    height: auto;
+         width: 25%;}
+.loginbox{ background:#c8e0ed; height:auto;   margin-bottom: 15px;
+-webkit-box-shadow: 0px 2px 0px 0 #73BDE5; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+          box-shadow: 0px 2px 0px 0 #73BDE5; /* Opera 10.5, IE9+, Firefox 4+, Chrome 6+, iOS 5 */
+}
+.input_boxes{  width: 88%; height:34px; border:1px solid #6ec0ec; border-radius:4px; background:#ebf4f9;  margin-bottom: 5px;
+    margin-left: 6%;
+    margin-top: 5px;}
+.loginbox span{ color: #333333;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 8px 0;
+    text-align: center;}
+
+.left_panel{ float: left;
+    height: auto;
+    width: 73%;}
+.top_text{   border-bottom: 1px dashed #999999;
+    color: #999999;
+    font-size: 15px;
+    line-height: 23px;
+    margin-top: 30px;
+    padding-bottom: 22px;}
+.top_text span{}
+.mid_text p{
+	  color: #848484;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 16px 0;
+}
+.mid_text p span{ color: #333333;
+}
+.login_btn{ 
+background:url(../img/login_btn.jpg);
+width:82px; height:34px; border:none;
+}
+.input_boxes input{  background: none;
+    border: medium none;
+    float: left;
+    height: 22px;
+    margin-left: 5px;
+    margin-right: 7px;
+    margin-top: 5px;
+    width: 68%;
+}
+.input_boxes img{     margin-left: 7px;  float: left;
+    margin-top: 4px;}
+.googleadd{ height: auto;
+        width: auto; background:#f2f2f2; border:1px solid #cfcfcf; min-height:500px;  margin-bottom: 15px;
+}
+.footer{
+    height: 70px;
+    line-height: 15px;
+    text-align: center;
+}
+.footer a{
+	 color: #848484;
+    margin: 0 10px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+.heading{ text-align:center;
+font-size:14px; color:#848484;   margin-top: 10px;
+}
+.top_container{
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo{  float: left;
+    margin-top: 7px;
+	display:block;
+}
+/*    */
+.addr{ color: #FFFFFF;
+    float: right;
+    font-size: 13px;
+    line-height: 21px;
+    margin-top: 7px;}
+.menu{
+	background:url(../img/menu_bg.jpg) repeat-x;
+	width:100%; height:44px;     margin-top: 10px; float: left;
+}
+.nav{     float: left;
+    width: 50%;}
+.nav li{ font-size:15px; color:#333; display: inline;}
+.nav li a{  color: #333333;    line-height: 40px;
+    margin: 0 15px;  padding: 6px 10px;
+}
+.nav li a:hover{    background: none repeat scroll 0 0 #1581B8;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    padding: 6px 10px;
+}
+.nav li a.active{  
+	background: none repeat scroll 0 0 #1581B8!important;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    padding: 6px 10px;
+}
+.right_menu_options{ float: right;
+ 
+}
+.right_menu_options ul { float: left; }
+.right_menu_options ul li {  background: url("../img/sepreator.png") no-repeat scroll right top transparent;
+    float: left;
+    margin: 0 12px 0 0;}
+
+.right_menu_options ul img { float:left; }
+.user {
+    font-weight: bold;
+    line-height: 20px;
+    width: 245px;
+}
+.email_li{ 
+    line-height: 41px; padding: 0 16px 0 0;
+}
+.right_arrow{padding: 0 10px 0 0; margin:0 !important;}
+.menu_container{width:94%; margin-left:3%;}
+
+/*  -----   Net_Amm (Amministratori  Edit )   ------*/
+
+/*  -----  int_documenti   ------*/
+.search_sort{}
+.search{ float:left; width:50%;}
+.search .label_field{  float: left; margin: 10px 0; width: 100%;}
+.search .label_field .label{ font-size:16px; width:auto; float:left; text-align:left; color:#333;  margin-right: 2%;  line-height: 36px;}
+.search .label_field .field{ width:77%; float:left; height:35px; border:1px solid #cccccc; border-radius:4px;}
+.search .field input{  height: 84%;   margin-left: 1%; width: 98%; border:none;}
+.sort{ float:right; width:50%;}
+.sort .label_field{  float: left; margin: 10px 0; width: 100%;}
+.sort .label_field .label{ font-size:16px; width:auto; float:right; text-align:left; color:#333;  margin-right: 2%;  line-height: 36px;}
+.sort .label_field .field{ width:77%; float:right; height:35px; border:1px solid #cccccc; border-radius:4px;}
+.sort .field select{ height: 100%;   margin-left: 1%; padding-top: 7px;  border: medium none; width: 98%; background:url(../img/select_list_img.png) no-repeat right center;}
+.search_sort{}
+.search{ float:left; width:50%;}
+.search .label_field{  float: left; margin: 10px 0; width: 100%;}
+.search .label_field .label{ font-size:16px; width:auto; float:left; text-align:left; color:#333;  margin-right: 2%;  line-height: 36px;}
+.search .label_field .field{ width:77%; float:left; height:35px; border:1px solid #cccccc; border-radius:4px;}
+.search .field input{  height: 84%;   margin-left: 1%; width: 98%; border:none;}
+.sort{ float:right; width:50%;}
+.sort .label_field{  float: left; margin: 10px 0; width: 100%;}
+.sort .label_field .label{ font-size:16px; width:auto; float:right; text-align:left; color:#333;  margin-right: 2%;  line-height: 36px;}
+.sort .label_field .field{ width:77%; float:right; height:35px; border:1px solid #cccccc; border-radius:4px;}
+.sort .field select{ height: 100%;   margin-left: 1%; padding-top: 7px;  border: medium none; width: 98%; background:url(../images/select_list_img.png) no-repeat right center;}
+.table_data{ width: 100%; border-bottom:1px solid #ccc;margin: 10px 0px 10px 0px;}
+.table_data td { border: 1px solid #cccccc;    border-collapse: collapse;    font-size: 14px;    padding: 8px; }
+.table_data th {   background: none repeat scroll 0 0 #1581B8; color: white; font-size: 16px; padding: 8px; text-align: left; text-transform: uppercase; }
+.table_data tr { }
+.checkbox_white{}
+/*  -----   Net_Amm (Amministratori  Edit )   ------*/
+
+.form_content{}
+.form_heading{ font-size:19px; color:#333333; border-bottom:1px dashed #999; float:left; width:98%; }
+.main_heading{ float: left;font-weight: bold; padding: 18px 0; }
+.close_btn{  float: right; padding: 22px 0; margin-right: 20px;}
+.submit_btn{ }
+.cancel_btn{  margin-left: 20px;}
+box-shadow: 0 1px 0 0 #333333; /* Opera 10.5, IE9+, Firefox 4+, Chrome 6+, iOS 5 */}
+.form_buttons{   float: left; margin-bottom: 10px; padding: 19px 0; width: 103%;}
+.form_labels_fields{float: left;    width: 100%; padding-bottom: 25px;}
+.label_field{  float: left; margin: 10px 0; width: 124%;}
+.label_field .label{ font-size:16px; width:20%; float:left; text-align:right; color:#333;  margin-right: 2%;  line-height: 36px;}
+.label_field .field{ width:60%; float:left; height:35px; border:1px solid #cccccc; border-radius:4px;background: none repeat scroll 0 0 #F9F9F9;}
+.field input{  height: 22px;   margin-left: 1%; width: 97%; border:none; background:#f9f9f9}
+.field textarea{ border: medium none; height: 80px;  margin-top: 1%; overflow-y: scroll;background:#f9f9f9}
+.calender{}
+.form_textarea{    height: 100px !important;}
+.field select{ height: 100%;   margin-left: 1%; padding-top: 7px;padding-bottom:7px;padding-right:7px; border: medium none; width: 99%; background:url(../images/select_list_img.png) no-repeat right center;}
+/*  -----   Net_Amm (Amministratori  Edit )   ------*/
+.btn {
+    background: none repeat scroll 0 0 #85CFFA;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 0 0 #333333;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 15px;
+    text-shadow: 0 1px 0 #FFFFFF;
+    border: none;
+	margin-top: 10px;
+}
+.logout_btn {
+    background: none repeat scroll 0 0 #85CFFA;
+    border: 1px solid #333333;
+    border-radius: 4px 4px 4px 4px;
+    color: #333333;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 6px;
+    padding: 5px 15px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+#fancybox-overlay{
+background: none repeat scroll 0 0 #000000;
+    cursor: pointer;
+    float: left;
+    height: 100%;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+div.fancybox-wrap{
+z-index: 9999;
+}
+
+
+
+
+/*************** 24-oct-2012 ******************/
+input.btn {
+    background: none repeat scroll 0 0 #85CFFA;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 16px;
+    padding: 5px 15px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+p#nav{
+text-align: center;
+padding-bottom: 10px;
+}
+div.fancybox-wrap{
+position : absolute!important;
+}
+
+/*************** 25-oct-2012 ******************/
+.img_delimiter{
+margin-left: 140px;
+}
+.forgot_btn{
+margin-left:50px;
+}

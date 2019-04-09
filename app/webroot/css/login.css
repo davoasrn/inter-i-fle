@@ -1,0 +1,140 @@
+body.login {
+    border-top-color: #464646;
+	border-top-style: solid;
+    border-top-width: 30px;
+    font: 11px "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	background: #ffffff;
+	
+}
+form {
+    font-weight: normal;
+}
+textarea, input[type="text"], input[type="password"], input[type="file"], input[type="button"], input[type="submit"], input[type="reset"], select {
+/*#user_pass, #user_login, #user_email {*/
+    background: none repeat scroll 0 0 #FBFBFB;
+    border: 1px solid #E5E5E5;
+    font-size: 24px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    padding: 3px;
+    width: 97%;
+}
+a {
+    color: #003D4C;
+    font-weight: normal;
+    text-decoration: underline;
+}
+#login {
+    margin: 7em auto;
+    width: 320px;
+}
+h1 a {
+    background: url("../images/logo-login.gif") no-repeat scroll center top transparent;
+    display: block;
+    height: 67px;
+    overflow: hidden;
+    padding-bottom: 15px;
+    text-indent: -9999px;
+    width: 326px;
+}
+
+form {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 4px 18px #C8C8C8;
+    font-weight: normal;
+    margin-left: 8px;
+    padding: 16px 16px 40px;
+}
+#login form p {
+    margin-bottom: 0;
+}
+label {
+    color: #777777;
+    font-size: 13px;
+}
+
+#login form p {
+    margin-bottom: 0;
+}
+
+form .forgetmenot {
+    float: left;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+form .submit, .alignright {
+    float: left;
+}
+.submit {
+    border-color: #DFDFDF;
+}
+
+.button-primary {
+    border: 1px solid;
+    border-radius: 11px 11px 11px 11px;
+    cursor: pointer;
+    font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+    font-size: 12px;
+    margin-top: -3px;
+    padding: 3px 10px;
+    text-decoration: none;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="file"], input[type="button"], input[type="submit"], input[type="reset"], select {
+    background-color: #FFFFFF;
+    border-color: #DFDFDF;
+}
+
+.button, .button-secondary, .submit input, input[type="button"], input[type="submit"] {
+    border-color: #BBBBBB;
+    color: #464646;
+}
+
+.button, .button-secondary, .submit input, input[type="button"], input[type="submit"] {
+    border-color: #BBBBBB;
+    color: #464646;
+}
+.button, .submit input, .button-secondary {
+    background: repeat-x scroll left top #F2F2F2;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+/*input.button-primary, button.button-primary, a.button-primary {*/
+input.button, button.button, a.button, .button, .submit input, .button-secondary {
+    background: repeat-x scroll left top #21759B;
+    border-color: #298CBA;
+    color: #FFFFFF;
+    font-size:14px;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+input.button-primary:hover, button.button-primary:hover, a.button-primary:hover {
+    background: repeat-x scroll left top #21759B;
+    border-color: #13455B;
+    color: #EAF2FA;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+#nav {
+    margin: 0 0 0 8px;
+    padding: 16px;
+}
+#nav {
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.login #backtoblog a {
+    color: #CCCCCC;
+}
+
+#backtoblog a {
+    left: 15px;
+    position: absolute;
+    text-decoration: none;
+    top: 7px;
+}
+form.adminLogin{
+ /*background: url("../images/logo_sps.png") no-repeat scroll 84px 10px transparent;*/
+}
